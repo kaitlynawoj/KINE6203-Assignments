@@ -40,7 +40,7 @@ averageAnswer = mean(meanNumbers)
 
 % 4. What command would you type to see a list of all installed toolboxes?
 
-        %<- ver
+   ver     %<-
 
 % 5. Write some commands that would return a list of all of the available 
 % functions in the image processing toolbox? 
@@ -55,7 +55,7 @@ x = linspace(-2*pi,2*pi);
 y = sin(x);
 
 figure
-        %<- plot (x,y)
+plot (x,y)        %<- 
 
         
 
@@ -232,9 +232,9 @@ trapArea = 0.5 * (base1 + base2) * height
 % Write some code that prompts the user to input total revenues and total 
 % costs and then calculates the ROI and stores the value in a variable called
 % ROI.
-
-
-
+totalRevenues = input('Enter the total revenues: ')
+totalCosts = input('Enter the total costs: ');
+ROI = ((totalRevenues - totalCosts) / totalCosts) * 100
 
 
 %% 
@@ -249,12 +249,13 @@ trapArea = 0.5 * (base1 + base2) * height
 %%% Enter the code for your program below this line
 
 disp('Hello World')
-
+userChoice = input('Enter what you want to say: ', 's')
+disp(userChoice)
 
 
 
 %%%%% When you have completed everything, type the following two commands
 %%%%% (without comments) into your command window. 
 
-%%% load handel
-%%% sound(y, Fs)
+%load handel
+%sound(y, Fs)
