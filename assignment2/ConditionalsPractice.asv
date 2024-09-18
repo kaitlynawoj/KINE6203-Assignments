@@ -1,0 +1,10 @@
+firstName = input('What is your first name?; ', 's')
+if strfind(firstName,'a') & strfind(firstname,'r')
+     disp('You are sorta cool?')
+elseif strfind(firstName,'r')
+    disp("you're sorta cool?")
+elseif strfind(firstName,'a')
+     disp('You are cool!')
+else
+    disp 
+end
