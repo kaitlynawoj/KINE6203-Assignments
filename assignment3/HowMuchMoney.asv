@@ -1,0 +1,10 @@
+function [TotalAmount] = HowMuchMoney(quarters,dimes,nickels,pennies)
+% This function takes the total amount of quarters, dimes, nickels, and
+% pennies as inputs and returns the total amount they add up to as an
+% output. 
+QuarterTotal = quarters * 0.25;
+DimesTotal = dimes * 0.10;
+NickelsTotal = nickels * 0.05;
+PenniesTotal = pennies * 0.01;
+TotalAmount = QuarterTotal + DimesTotal + NickelsTotal + PenniesTotal;
+end

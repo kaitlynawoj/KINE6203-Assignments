@@ -1,0 +1,6 @@
+function [PrimeOrNot] = PrimeCheck(num1)
+% This function takes one number as input and checks if it is a prime
+% number or not. If it is, a 1 is returned to represent true, if it is not,
+% 
+PrimeOrNot = isprime(num1)
+end

@@ -1,0 +1,8 @@
+function [ValidOrNot] = ValidTriangle(TriangleSides)
+%UNTITLED10 Summary of this function goes here
+%   Detailed explanation goes here
+sort(TriangleSides)
+a = TriangleSides(1);
+b = TriangleSides(2);
+c = TriangleSides(3);
+end
