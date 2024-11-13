@@ -6,7 +6,7 @@ function [maleIsoIndMeans,femaleIsoIndMeans, maleGroupIsoMean, femaleGroupIsoMea
 % Outputs: 2 sets of individual means (maleIsoIndmeans, femaleIsoIndMeans,
 % 2 group means (maleGroupIsoMean, femaleGroupIsoMean)
 %
-% % Written by Kaitlyn Wojciechowski
+% Written by Kaitlyn Wojciechowski
 % Tested on Matlab 2024a
 % ok on MacOS Monterey version 12.2.1
 
