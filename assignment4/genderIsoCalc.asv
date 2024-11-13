@@ -1,0 +1,13 @@
+function [maleIsoIndMeans,femaleIsoIndMeans, maleGroupIsoMean, femaleGroupIsoMean] = genderIsoCalc(isokData)
+% This function calculates individual male and female means as well as male
+% and female group means based on a given dataset. 
+
+maleData = data(data.Gender == 'M');
+femaleData = data(data.Gender == 'F');
+
+maleIsoIndMeans = mean(maleData.Day1, maleData.Day2, maleData.Day3)
+femaleIsoIndMeans = mean (femaleData.Day1, femaleData.Day2, femaleData.Day3)
+
+
+
+end
